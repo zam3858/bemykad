@@ -33,5 +33,10 @@
     "allow-plugins": {
       "pestphp/pest-plugin": true
     }
+  },
+  "suggest": {
+    "laravel/framework": "For easy integration with Laravel, use the BeMyKadServiceProvider.",
+    "symfony/symfony": "For easy integration with Symfony, use the BeMyKadBundle.",
+    "codeigniter4/framework": "The package can be used directly with CodeIgniter 4 due to PSR-4 autoloading."
   }
 }
